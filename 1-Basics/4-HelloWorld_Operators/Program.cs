@@ -24,6 +24,7 @@ namespace HelloWorld
             Console.WriteLine(myInt < mySecondInt);
 
             Console.WriteLine(5 > 10 && 5 < 10);
+            Console.WriteLine(5 > 10 || 10 > 5);
 
 
             //Mathematical Operators
@@ -74,9 +75,6 @@ namespace HelloWorld
             string[] myStringArr = myString.Split(". ");
             Console.WriteLine(myStringArr[0]);
             Console.WriteLine(myStringArr[1]);
-
-
-
 
         }
     }
